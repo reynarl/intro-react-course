@@ -12,11 +12,12 @@ import React from 'react';
 // }
 
 //2da Forma
-const Headers = ({subtitle, description}) => (
+const Headers = ({subtitle, description, cantidad}) => (
     <div>
       <h1>Soy un componente</h1>
       <h2>{subtitle}</h2>
       <p>{description}</p>
+      <h2> Cantidad: {cantidad}</h2>
     </div>
 )
  

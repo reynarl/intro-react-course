@@ -15,7 +15,9 @@ code {
   width: 450px;
   margin: auto;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   border: 1px solid salmon;
   padding: 40px 0;
 }
@@ -34,4 +36,9 @@ code {
   border: none;
   color: white;
   font-weight: bold;
+}
+
+.error{
+  color: red;
+  font-weight: 600;
 }
